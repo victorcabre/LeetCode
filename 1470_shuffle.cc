@@ -10,7 +10,6 @@ public:
             sol.push_back(nums[i]);
             sol.push_back(nums[n + i]);
         }
-
         return sol;
     }
 };
