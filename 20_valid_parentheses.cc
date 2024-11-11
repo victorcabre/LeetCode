@@ -12,7 +12,7 @@ public:
                 stack.push(c);
             }
             else if (stack.empty() or not ((stack.top() == '(' and c == ')') or (stack.top() == '{' and c == '}') or (stack.top() == '[' and c == ']'))) {
-                    return false;
+                return false;
             }
             else {
                 stack.pop();
